@@ -18,6 +18,8 @@ public class PlayerMatController : MonoBehaviour
     
     void Update()
     {
+        GetSceneINFO();
+        
         Debug.Log(sceneName);
         if (Input.GetKeyDown(KeyCode.Alpha1))
             Player.material = player1;
